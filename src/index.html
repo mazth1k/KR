@@ -8,6 +8,103 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <div class="card" style="
+  width: 40%; 
+  margin: 0 auto;
+  ">
+  <div class="card-body" style="
+  width: 2;
+  "><h2>Сайт для информации по Dota 2</h2></div>
+</div>
+<div>
+  <h4>Содержание:</h4>
+  <a href=”head1”>Суть сайта</a> <a href=”head2”>Статистика</a> <a href=”head3”>Обратная связь </a>
+</div>
+<div>
+  <!--Основная часть-->
+  <h4 id=”head1”>Суть сайта</h4>
+  В данном проекте будут предоставлены контрпики персонажей в игре Dota 2. Будет расписан подробный Item-билд против них, который поможет выиграть игру. В данный момент аналогов этому проекту нет, потому что в доте часто происходят патчи, от чего мета и персонажи сильно меняются и компании считают не выгодным держать сайт, на который надо нанимать сотрудников и каждый раз проверять информацию. Но я и моя команда готовы этим заняться и помочь начинающим игрокам, коих очень мало, освоиться в игре.</id>
+</div>
+<div>
+  <!--Таблица-->
+  <h4 id=”head2”>Статистика</h4>
+  <table>
+    <thead>
+      <tr>
+        <th>Персонаж</th>
+        <th>Контрпик</th>
+        <th>Сборка</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Huskar</td>
+        <td>Tinker/Storm Spirit</td>
+        <td>Boots of Travel, Armlet of Mordiggian, Black King Bar, Sange and Yasha, Blink Dagger, Aghanim's Scepter</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Medusa</td>
+        <td>Anti-Mage</td>
+        <td>Power Treads, Hand of Midas, Dragon Lance, Butterfly, Black KIng Bar, Daedalus, Linken's Sphere</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Tinker</td>
+        <td>Storm Spirit</td>
+        <td>Soul's Ring, Blink Dagger, Black King Bar, Shiva's Guard, Scythe of Vyse, Linken's Sphere</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>Phantom Lancer</td>
+        <td>Pudge</td>
+        <td>Power Treads, Manta Style, Aghanim Shard, Octarine, Heart of Tarrasque, Linken's Sphere, Black King Bar</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <!--Обратная форма связи-->
+  <h4 id=”head3”>Обратная связь</h4>
+  <form>
+    <label>
+      Ваше имя:
+      <br/>
+      <input type="text" placeholder="Name"/>
+    </label>
+    <br/>
+    Сегодняшняя дата:
+    <br/>
+    <input type="date" />
+    <br />
+    Причина захода на сайт?
+    <br/>
+    <input type="radio" name="choice_1" />
+    Вы начинающий игрок
+    <br />
+    <input type="radio" name="choice_1" />
+    Вам интересна нынешняя мета
+    <br />
+    <input type="radio" name="choice_1" />
+    Вам хочется узнать тонкости персонажей
+    <br />
+    <label>
+      Ваша почта:
+      <br />
+      <input type="email" placeholder="youremail@mail.ru" />
+    </label>
+    <br />
+    <label>
+      Опишите конкретнее вашу проблему:
+      <br />
+      <textarea cols="20" rows="5"></textarea>
+    </label>
+    <br>
+    <button>Отправить</button>
+  </form>
+</div>
 </body>
 </html>
